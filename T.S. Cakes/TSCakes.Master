@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TSCakes.master.cs" Inherits="T.S.Cakes.TSCakes" %>
+
+<!DOCTYPE html>
+
+<html dir="rtl">
+<head runat="server">
+    <title>T.S Cakes - עוגות מעוצבות לאירועים</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="products.aspx"><img class="nav-logo-image" src="images/logo.jpg"></a>
+            <ul class="nav-menu">
+                <li class="nav-items">
+                    <a href="products.aspx" class="nav-links">מוצרים</a>
+                </li>
+                <li class="nav-items">
+                    <a href="delivery.aspx" class="nav-links">משלוחים</a>
+                </li>
+                <li class="nav-items">
+                    <a href="branches.aspx" class="nav-links">סניפים</a>
+                </li>
+                <li class="nav-items">
+                    <a href="logout.aspx" class="nav-links">התנתק</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <footer>
+		<div class="footer-container">
+			<div>
+				<h3>קישורים</h3>
+				<ul>
+					<li><a href="products.aspx">מוצרים</a></li>
+					<li><a href="delivery.aspx">משלוחים</a></li>
+					<li><a href="branches.aspx">סניפים</a></li>
+					<li><a href="login.aspx">כניסה</a></li>
+					<li><a href="signup.aspx">הרשמה</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>צרו קשר</h3>
+	            <div>
+		            <p>רחוב הסיבים 59, פתח תקווה</p>
+                    <p>03-856-7425</p>
+	            </div>
+			</div>
+			<div>
+				<h3>שעות פתיחה</h3>
+				<div>
+                    <p>ראשון, שלישי, חמישי: 7:00-14:00</p>
+                    <p>שני, רביעי: 16:00-23:00</p>
+				</div>
+			</div>
+		</div>
+		<ul class="socials-row">
+			<li><a href="https://www.instagram.com/t.s_cakes_"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://www.instagram.com/t.s_cakes_"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.instagram.com/t.s_cakes_"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://www.instagram.com/t.s_cakes_"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="https://www.instagram.com/t.s_cakes_"><i class="fa fa-envelope"></i></a></li>
+		</ul>
+	</footer>
+</body>
+</html>
