@@ -5,36 +5,38 @@
 <html dir="rtl">
 <head runat="server">
     <title>T.S Cakes - עוגות מעוצבות לאירועים</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="master-container">
     <header>
         <nav class="nav">
-            <a href="products.aspx"><img class="nav-logo-image" src="images/logo.jpg"></a>
+            <a href="products.aspx"><img class="nav-logo-image" src="images/logo.png"
+                style="background-color:transparent;"></a>
             <ul class="nav-menu">
                 <li class="nav-items">
                     <a href="products.aspx" class="nav-links">מוצרים</a>
                 </li>
                 <li class="nav-items">
-                    <a href="delivery.aspx" class="nav-links">משלוחים</a>
-                </li>
-                <li class="nav-items">
                     <a href="branches.aspx" class="nav-links">סניפים</a>
                 </li>
                 <li class="nav-items">
-                    <a href="logout.aspx" class="nav-links">התנתק</a>
+                    <a href="about.aspx" class="nav-links">קצת עלינו</a>
+                </li>
+                <li class="nav-items">
+                    <a href="login.aspx" class="nav-links">התנתק</a>
                 </li>
             </ul>
         </nav>
     </header>
-    
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+
+    <div>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
 
     <footer>
 		<div class="footer-container">
@@ -42,8 +44,8 @@
 				<h3>קישורים</h3>
 				<ul>
 					<li><a href="products.aspx">מוצרים</a></li>
-					<li><a href="delivery.aspx">משלוחים</a></li>
 					<li><a href="branches.aspx">סניפים</a></li>
+					<li><a href="about.aspx">קצת עלינו</a></li>
 					<li><a href="login.aspx">כניסה</a></li>
 					<li><a href="signup.aspx">הרשמה</a></li>
 				</ul>
@@ -51,7 +53,7 @@
 			<div>
 				<h3>צרו קשר</h3>
 	            <div>
-		            <p>רחוב הסיבים 59, פתח תקווה</p>
+		            <p>דניאל ליפשיץ 1, פתח תקווה</p>
                     <p>03-856-7425</p>
 	            </div>
 			</div>

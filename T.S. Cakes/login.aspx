@@ -11,6 +11,7 @@
     <h1>כניסה לאתר T.S Cakes</h1>
     <div class="form-container">
         <form id="login_form" runat="server" class="form">
+            <img src="images/logo.png" class="form-logo"/>
             <div>
                 <asp:Label AssociatedControlId="username" Text="שם משתמש:" runat="server" />
                 <asp:TextBox runat="server" ID="username"></asp:TextBox>
@@ -34,9 +35,9 @@
                     Style="color: red">
                 </asp:RequiredFieldValidator>
             </div>
-
+            <br />
             <asp:Button runat="server" ID="submit_signup" Text="התחברות" CssClass="sumbit" />
-
+            <br />
             <a style="color: black" href="signup.aspx">אין לך חשבון? הירשם כאן</a>
         </form>
     </div>

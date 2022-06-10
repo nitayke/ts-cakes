@@ -11,6 +11,7 @@
     <h1>הרשמה לאתר T.S Cakes</h1>
     <div class="form-container">
         <form id="signup_form" runat="server" class="form">
+            <img src="images/logo.png" class="form-logo"/>
             <div>
                 <asp:Label AssociatedControlId="email" Text="אימייל:" runat="server" />
                 <asp:TextBox runat="server" ID="email"></asp:TextBox>
@@ -90,8 +91,10 @@
                     Style="color: red">
                 </asp:CompareValidator>
             </div>
-            <asp:Button runat="server" ID="submit_signup" Text="הרשמה" CssClass="sumbit" />
 
+            <br />
+            <asp:Button runat="server" ID="submit_signup" Text="הרשמה" CssClass="sumbit" />
+            <br />
             <a style="color: black" href="login.aspx">יש לך כבר חשבון? היכנס כאן</a>
         </form>
     </div>
