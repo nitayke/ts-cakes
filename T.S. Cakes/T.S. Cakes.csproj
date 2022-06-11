@@ -73,6 +73,7 @@
     <Content Include="products.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="style.css" />
+    <Content Include="update_details.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +84,8 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Code\DAL.cs" />
+    <Compile Include="App_Code\UserLogic.cs" />
     <Compile Include="branches.aspx.cs">
       <DependentUpon>branches.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,6 +121,13 @@
     </Compile>
     <Compile Include="TSCakes.Master.designer.cs">
       <DependentUpon>TSCakes.Master</DependentUpon>
+    </Compile>
+    <Compile Include="update_details.aspx.cs">
+      <DependentUpon>update_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="update_details.aspx.designer.cs">
+      <DependentUpon>update_details.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

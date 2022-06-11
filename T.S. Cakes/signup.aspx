@@ -93,7 +93,8 @@
             </div>
 
             <br />
-            <asp:Button runat="server" ID="submit_signup" Text="הרשמה" CssClass="sumbit" />
+            <asp:Label runat="server" ID="wrong_signup"></asp:Label>
+            <asp:Button runat="server" ID="submit_signup" Text="הרשמה" CssClass="sumbit" OnClick="Signup_Event"/>
             <br />
             <a style="color: black" href="login.aspx">יש לך כבר חשבון? היכנס כאן</a>
         </form>

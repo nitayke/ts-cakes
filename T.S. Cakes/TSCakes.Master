@@ -24,6 +24,9 @@
                     <a href="branches.aspx" class="nav-links">סניפים</a>
                 </li>
                 <li class="nav-items">
+                    <a href="update_details.aspx" class="nav-links">עדכון פרטים</a>
+                </li>
+                <li class="nav-items">
                     <a href="about.aspx" class="nav-links">קצת עלינו</a>
                 </li>
                 <li class="nav-items">

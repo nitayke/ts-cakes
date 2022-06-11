@@ -14,12 +14,6 @@
       <div class="desc">Add a description of the image here</div>
     </div>
     <div class="gallery">
-      <a target="_blank" href="images/cakes/3.jpg">
-        <img src="images/cakes/3.jpg" width="600" height="400">
-      </a>
-      <div class="desc">Add a description of the image here</div>
-    </div>
-    <div class="gallery">
       <a target="_blank" href="images/cakes/4.jpg">
         <img src="images/cakes/4.jpg" width="600" height="400">
       </a>

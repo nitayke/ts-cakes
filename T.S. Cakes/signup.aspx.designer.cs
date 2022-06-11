@@ -132,6 +132,15 @@ namespace T.S.Cakes
         protected global::System.Web.UI.WebControls.CompareValidator password_compare;
 
         /// <summary>
+        /// wrong_signup control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label wrong_signup;
+
+        /// <summary>
         /// submit_signup control.
         /// </summary>
         /// <remarks>

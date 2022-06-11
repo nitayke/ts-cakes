@@ -11,17 +11,17 @@ namespace T.S.Cakes
 {
 
 
-    public partial class login
+    public partial class update_details
     {
 
         /// <summary>
-        /// login_form control.
+        /// update_form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm login_form;
+        protected global::System.Web.UI.HtmlControls.HtmlForm update_form;
 
         /// <summary>
         /// username control.
@@ -51,30 +51,21 @@ namespace T.S.Cakes
         protected global::System.Web.UI.WebControls.TextBox password;
 
         /// <summary>
-        /// empty_password control.
+        /// email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator empty_password;
+        protected global::System.Web.UI.WebControls.TextBox email;
 
         /// <summary>
-        /// wrong_login control.
+        /// wrong_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label wrong_login;
-
-        /// <summary>
-        /// submit_signup control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit_signup;
+        protected global::System.Web.UI.WebControls.Label wrong_update;
     }
 }

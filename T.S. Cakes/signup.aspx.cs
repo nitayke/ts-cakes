@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using T.S.Cakes.App_Code;
 
 namespace T.S.Cakes
 {
@@ -12,6 +8,19 @@ namespace T.S.Cakes
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        protected void Signup_Event(object sender, EventArgs e)
+        {
+            UserLogic userLogic = new UserLogic();
+            if (userLogic.AddNewUser(this.username.Text, this.email.Text, this.password.Text))
+            {
+                Response.Redirect("products.aspx");
+                this.wrong_signup.Text = "";
+            }
+            else
+            {
+                this.wrong_signup.Text = "שם המשתמש נמצא בשימוש. נא לבחור אחד אחר.";
+            }
         }
     }
 }
