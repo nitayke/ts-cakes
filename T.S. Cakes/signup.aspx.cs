@@ -12,14 +12,13 @@ namespace T.S.Cakes
         protected void Signup_Event(object sender, EventArgs e)
         {
             UserLogic userLogic = new UserLogic();
-            if (userLogic.AddNewUser(this.username.Text, this.email.Text, this.password.Text))
-            {
-                Response.Redirect("products.aspx");
-                this.wrong_signup.Text = "";
-            }
+            if (userLogic.UserExists(username.Text))
+                wrong_signup.Text = "שם המשתמש נמצא בשימוש. נא לבחור אחד אחר.";
             else
             {
-                this.wrong_signup.Text = "שם המשתמש נמצא בשימוש. נא לבחור אחד אחר.";
+                userLogic.AddNewUser(username.Text, email.Text, password.Text);
+                Response.Redirect("products.aspx");
+                wrong_signup.Text = "";
             }
         }
     }

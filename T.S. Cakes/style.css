@@ -129,6 +129,7 @@ div.gallery {
     border: 1px solid black;
     float: left;
     width: 180px;
+    height: 300px;
 }
 
 div.gallery:hover {
@@ -145,3 +146,13 @@ div.desc {
     text-align: center;
 }
 
+.map-container {
+    display:flex; 
+    align-items:center;
+    flex-direction:column;
+}
+
+.products-container {
+    display:flex;
+    flex-direction:column;
+}
